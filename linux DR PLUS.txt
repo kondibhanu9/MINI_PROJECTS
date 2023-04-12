@@ -1,0 +1,196 @@
+Operating system is a system software which acts as a interface between user and
+computer.
+why do we use Windows 10 mostly? 
+because it is user friendly
+major differnece between os is versions.
+
+windows is closed source OS
+linux is open source OS
+We have different versions of OS .Few commands are updated
+
+In DEVOPS why we need OS?
+Devops is common for every cloud.But why we need Linux OS?Windows is not having security
+and no rules and closed source
+But Linux and CentOs are open source and secure.
+For using DEVOPS we are using linux commands only.
+Os is used as GUI and CLI:
+GUI-Graphical user interface-->You can see the images
+CLI-Command line interface-->you use commands.
+No one use windows in software industry.They use linux.
+We have to give commands in linux.
+
+Operating Systems:
+These are based on linux:
+CentOs
+fedora
+ubuntu
+kali linux--for ethical hacking--we dont know from where the data is coming and
+where data is sent
+
+
+where we learn linux commands?
+To learn linux commands we have to install virtual machine
+Difference between virtual and physical is physical means you can touch
+but virtual you cannot touch
+Inside windows we can install VMWARE
+VMWARE is also a machine where we can manage any operating systems at a time
+In the VMWAre we can create a windows,redhat,centos,ubuntu os etc.
+In the virtual machine we can increase the RAM by using options
+But in physical machine if we have 4GB ram then buy another 4GB ram and remove screws
+and insert ram in the machine
+Different VMWARE are available ,all works same.
+Some softwares will run only in older versions for that purpose also we use VMWARE.
+**press start button to turn on virtual machine
+
+To create a virtual machine of REdhat OS:
+
+go to new
+give name-->next
+go to ram-->give 4 GB-->
+harddisk-->next
+now when you start the OS-->nothing will happen because we didnt give OS image.
+so now select the disk then it will load
+So now we are using two operating systems
+
+What cloud provides?
+cloud providers will provide a virtual PC's
+AWS will provide virtual PC's
+In Technical hub nearly 100 employees are there --work from home
+How can the employees share their work?
+so they make use of AWS.
+AWS will provide virtual PCs
+Cloud providers will help us to create new features.
+
+Open virtual machine:
+cd directoryname-->to change directory
+cd ..          to come out of desktop
+ls              list information of files.
+cat filename      to open a file
+mkdir filename    
+
+
+LINUX intro
+basic commands
+What is VMWARE
+LINUX installation
+vi commands and what is the use
+Difference between user and Graphical interface
+File permissions 
+Disk permission or Disk creating
+
+
+
+https://www.hostinger.com/tutorials/linux-commands
+
+IP ADDRESS CLASS AND RANGES:
+1-127 -A
+
+127 is loop back ip address
+whetther my network is working properly or not
+128-191-B
+192-223-C
+224-239-D
+240-255-E
+
+D-DEVELOPMENT AND RESEARCH
+E-GOVT PURPOSE
+C-PUBLIC IP
+B-SMALL INDUSTRIES
+A-sMALL INDUSTRIES
+
+PING COMMAND:
+THERE are some pc's in computer labs
+how pc's get network
+you will have iron box-and some switches are there-it is the network device
+these switches are connected to pc's
+now this network device is connected to router in server room
+we will get network to router from BSNL
+now router will change the public ip to private ip
+this BSNL will be directly given to towers from towers we will get network in our mobile
+
+suppose dlink network is there
+and pc's are connected to dlink
+
+ping command is used to check connectivity between our network to another network
+test DNS name resolution server
+test network interface card
+
+C:\Users\DELL>ping google.com
+
+Pinging google.com [142.250.195.206] with 32 bytes of data:
+Reply from 142.250.195.206: bytes=32 time=56ms TTL=117
+Reply from 142.250.195.206: bytes=32 time=191ms TTL=117
+Reply from 142.250.195.206: bytes=32 time=199ms TTL=117
+Reply from 142.250.195.206: bytes=32 time=115ms TTL=117
+
+Ping statistics for 142.250.195.206:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 56ms, Maximum = 199ms, Average = 140ms
+
+C:\Users\DELL>
+
+once ping google.com is given it will go to college server and checks whether it is giving access to google.com
+if it is giving access then we will get reply
+
+ping google.com means ping at a ip address of google
+
+for google.com users will get diff ip address because millions of people will access then load balance will increase
+so if cloud is increased then devops engineer should divide users on different sub servers
+
+for cpu backside or pc we have a network port which will communicate with network interface card
+
+Reasons for packet loss:
+
+network congestion
+faulty hardware
+firewall issues
+destination host unreachable
+
+two types of ip address
+
+automatically connected ip address
+manual ip address
+
+some applications will run on some network only
+
+127 series will check whether  network interface card working properly or not
+
+C:\Users\DELL>ping 127.0.0.1
+
+Pinging 127.0.0.1 with 32 bytes of data:
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+
+Ping statistics for 127.0.0.1:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+C:\Users\DELL>
+
+127 series and localhost both are same
+
+C:\Users\DELL>ping localhost
+
+Pinging DESKTOP-SA605DI [::1] with 32 bytes of data:
+Reply from ::1: time<1ms
+Reply from ::1: time<1ms
+Reply from ::1: time<1ms
+Reply from ::1: time<1ms
+
+Ping statistics for ::1:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+C:\Users\DELL>
+
+ping command will show ip address of the destination
+
+
+
+
+
